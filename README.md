@@ -67,7 +67,7 @@ Construct a Single Page Application with React incorporating multiple components
 Keep your components separate and design them before adding in your Router.
 You can test them individually before adding in the Router (Part 2).
 
-Create 3 page components to display data from 3 API endpoints:
+Create 3 page components to display data from 3 API endpoints: name, status, species, type
 
 - `https://rickandmortyapi.com/api/character/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-characters)
 - `https://rickandmortyapi.com/api/locations/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
@@ -136,4 +136,3 @@ There's a range of difficulty included. 😈
 If the [main API service](https://rickandmortyapi.com/documentation) goes down, or you exceed rate limits, you can try the following backup URL:
 
 **Backup URL:** https://rick-and-morty-learning-api.herokuapp.com/api/
-

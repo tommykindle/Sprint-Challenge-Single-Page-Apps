@@ -12,7 +12,7 @@ const CharacterList = props => {
       axios
         .get('https://rickandmortyapi.com/api/character/')
         .then(res => {
-          setCharacters(res.data);
+          setCharacters(res.data.results);
           console.log('Result', res);
         })
         .catch(error => {
@@ -34,7 +34,7 @@ const CharacterList = props => {
 function CharacterDetails({ character }) {
   const { name, status, species, type } = character;
   return (
-    <CharacterCard carachter={character} />
+    <CharacterCard character={character} />
   )
 }
 
