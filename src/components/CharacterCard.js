@@ -1,5 +1,8 @@
 import React from 'react'
 
-export default function CharacterCard ({ /* add props */ }) {
+const CharacterCard = (props) => {
   return (<span>todo: location</span>
+  )
 }
+
+export default CharacterCard;
